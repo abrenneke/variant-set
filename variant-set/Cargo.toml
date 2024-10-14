@@ -6,4 +6,4 @@ description = "A set-like data structure for enum variants, allowing you to stor
 
 [dependencies]
 nohash-hasher = "0.2.0"
-variant-set-derive = { path = "../variant-set-derive" }
+variant-set-derive = "0.1.0"

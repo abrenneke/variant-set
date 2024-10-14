@@ -48,12 +48,23 @@ name = "variant-set"
 version = "0.1.0"
 dependencies = [
  "nohash-hasher",
- "variant-set-derive",
+ "variant-set-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "variant-set-derive"
 version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "variant-set-derive"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0eb09f1ceb11dfab0a728ae603a3993f5e22aa283264b6542a738c39f73fd03"
 dependencies = [
  "proc-macro2",
  "quote",
