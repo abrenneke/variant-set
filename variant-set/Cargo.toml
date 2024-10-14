@@ -3,6 +3,7 @@ name = "variant-set"
 version = "0.1.0"
 edition = "2021"
 description = "A set-like data structure for enum variants, allowing you to store at most one value for each variant of an enum."
+license = "CC0-1.0"
 
 [dependencies]
 nohash-hasher = "0.2.0"
