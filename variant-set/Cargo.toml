@@ -1,0 +1,8 @@
+[package]
+name = "variant-set"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nohash-hasher = "0.2.0"
+variant-set-derive = { path = "../variant-set-derive" }

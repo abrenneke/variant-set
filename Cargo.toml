@@ -1,0 +1,3 @@
+[workspace]
+members = ["variant-set", "variant-set-derive"]
+resolver = "2"
